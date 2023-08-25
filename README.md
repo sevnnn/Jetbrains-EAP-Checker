@@ -31,6 +31,6 @@ poetry run python ./jetbrains_eap_checker.py
 
 <summary>Image Example</summary>
 
-![readme\example.jpg](readme\example.jpg)
+![readme/example.jpg](readme/example.jpg)
 
 </details>
