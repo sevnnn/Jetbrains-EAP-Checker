@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jetbrains-eap-checker"
+version = "0.1.0"
+description = "App that let you check if EAP versions of JetBrains IDE's are available"
+authors = ["https://github.com/sevnnn"]
+readme = "README.md"
+packages = [{include = "jetbrains_eap_checker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
